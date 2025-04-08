@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CUA Newspaper Usability Analysis - Full Breakdown</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 20px;
+      background: linear-gradient(to right, #ffffff, #e0f7fa);
+      color: #333;
+    }
+    h1, h2, h3 {
+      color: #0d47a1;
+    }
+    h1 {
+      font-size: 2.7em;
+      border-bottom: 3px solid #0288d1;
+      padding-bottom: 12px;
+      margin-bottom: 20px;
+    }
+    h2 {
+      font-size: 2em;
+      margin-top: 30px;
+      color: #0288d1;
+    }
+    h3 {
+      font-size: 1.5em;
+      color: #01579b;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 24px;
+      background-color: #ffffff;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 14px;
+      text-align: left;
+    }
+    th {
+      background-color: #e1f5fe;
+      color: #01579b;
+    }
+    ul {
+      background-color: #e1f5fe;
+      padding: 15px 25px;
+      border-left: 5px solid #0288d1;
+      list-style-type: disc;
+      margin-bottom: 24px;
+    }
+    img {
+      max-width: 100%;
+      margin: 25px 0;
+      border: 4px solid #0288d1;
+      box-shadow: 4px 4px 14px rgba(0,0,0,0.15);
+      border-radius: 8px;
+    }
+    p strong {
+      color: #0277bd;
+    }
+    .section {
+      margin-bottom: 30px;
+    }
+    .highlight {
+      color: #0277bd;
+      font-weight: bold;
+    }
+    .highlight-light {
+      color: #01579b;
+      font-weight: bold;
+    }
+    .table-container {
+      overflow-x: auto;
+    }
+  </style>
+</head>
+<body>
+  <h2 style="color: black;">Rakesh Boindla</h2>
+  <h2 style="color: black;">INFO-555 #Assignment-2</h2>
+  <a href="https://cuislandora.wrlc.org/islandora/object/cuislandora%3A67501" target="_blank">The Tower Website (1922 to 2018)</a> 
+  <h1>System Analysis and Usability Test</h1>
+
+  <div class="section">
+    <h2>Part 1: Analyze the Website Using the Usability Framework</h2>
+
+    <h3>Step 1: Explore and consider the information that goes into (input) or comes out (output) of the system.</h3>
+    <p>The table below outlines the key user interactions and the system's responses. This forms the foundation for assessing how well the site meets user expectations and supports core tasks.</p>
+
+    <div class="table-container">
+      <table>
+        <tr>
+          <th>Input (User Action)</th>
+          <th>Output (System Response)</th>
+        </tr>
+        <tr>
+          <td>Typing a keyword in the search bar</td>
+          <td>The system starts searching in both metadata indexes and the available full document texts after a user submits a keyword through the search bar. The search capability utilizes Solr as its search engine to connect with Islandora for delivering fast and precise search outcomes. The system displays a list containing matched items with their title, author information, publication date along with a brief abstract or description. Users can click on each search result to access complete item information that includes extra details as well as associated files.</td>
+        </tr>
+        <tr>
+          <td>Clicking on a specific issue title</td>
+          <td>The system leads users to detailed item records whenever they select an item title through the search results or browse screens. Users can access detailed item metadata through this page showing key information including title and authors as well as advisors and degree-related details and an abstract and selected subject terms. Users can access linked files consisting of both main documentation items (such as dissertations or theses) along with secondary content through this page. Users of the system can view documents directly through the browser or they can choose to download the files for offline use. Citation purposes are supported by the detailed record page through persistent identifiers which act as stable handles to the item.</td>
+        </tr>
+        <tr>
+          <td>Sorting articles by date or title</td>
+          <td>Through its sorting operations the repository lets users maintain their search outcomes or collections of data by applying selected criteria such as date or title. The system arranges the displayed items according to the sorting option selection made by users. Users access chronological document ordering by date with a precision choice allowing them to view recently added items or those with historical relevance. The title sorting method creates an alphabetical display that enables users to find particular works by name and support structured browsing. The system's dynamic reorganization process improves user navigation through all repository content.</td>
+        </tr>
+        <tr>
+          <td>Clicking a download link</td>
+          <td>The system begins the file download process when users click download links that correspond to items through the platform while using PDF format for downloaded files. Users can obtain complete document content from a downloaded file that shows the author-submitted dissertation or thesis content with its original text and pictures and layout. Users can benefit from embedded metadata during their reference management when a PDF contains metadata about title and author and keywords. Users can review materials and conduct their research by downloading content because it enables digital access independently of network availability.</td>
+        </tr>
+      </table>
+    </div>
+
+    <h3>Step 2: Critique the site from the perspective of supporting undergraduate teachers who want to incorporate original source material into their lesson plans and student learning activities.</h3>
+    <p>For the heuristic evaluation, we apply Jakob Nielsen’s 10 Usability Heuristics. Each heuristic is analyzed in relation to the CUA Newspaper site to identify potential usability problems and provide suggestions for improvement.</p>
+
+  <div>
+    <h2>Concepts</h2>
+    <ul>
+      <li>Mental health awareness</li>
+      <li>Common mental health challenges in university life</li>
+      <li>Campus support systems and communication</li>
+    </ul>
+  </div>
+
+  <div>
+    <h2>Aims</h2>
+    <ul>
+      <li>Introduce students to the topic of mental health in campus settings</li>
+      <li>Analyze how student newspapers cover mental health issues</li>
+      <li>Encourage students to think critically about language and symbolism used around mental health</li>
+    </ul>
+  </div>
+
+  <div>
+    <h2>Learning Outcomes</h2>
+    <ul>
+      <li>Identify and describe mental health references in student publications</li>
+      <li>Interpret symbolic or emotional messaging in headlines/images</li>
+      <li>Evaluate the effectiveness of mental health communication strategies</li>
+    </ul>
+  </div>
+
+  <div>
+    <h2>Assessment</h2>
+    <ul>
+      <li>Completion of analysis task using selected articles from the archive</li>
+    </ul>
+  </div>
+
+<h2>Nielsen's heuristics: Guiding analysis of The Tower website (supporting the undergraduate teacher's lesson plan..)</h2>
+
+    <div class="table-container">
+      <table>
+        <tr>
+          <th>Heuristic</th>
+          <th>Issues</th>
+        </tr>
+        <tr>
+          <td>1. Visibility of System Status</td>
+          <td>The database provided suitable results when users entered search terms which included “mental health,” “anxiety,” or “student well-being.” Users did not receive any visual notification during the search process that confirmed the system continued its operation. The search results displayed chronological organization although this sometimes failed to present the most suitable information. Users especially students who navigate under time pressure would benefit from search results sorted by relevance while also getting progress indicators such as “Loading search results".</td>
+        </tr>
+        <tr>
+          <td>2. Match Between System and Real World</td>
+          <td>The presented results showed article thumbnails combined with titles and dates and the first sentence offerings which provided effective search support for students concerned about mental health subject matter. The interface design followed what users anticipated while enabling they could navigate the system in a natural way. The site contains terms such as "object" and "collection" yet these technical library or archival terminologies might confuse students who are not familiar with this specialized language. Everyday vocabulary choices instead of archival jargon such as “story” or “article” would help the tool reach more students.</td>
+        </tr>
+        <tr>
+          <td>3. User Control and Freedom</td>
+          <td>The user is required to edit their search terms by hand or employ their browser's back function when no results match. This is basic but functional. The website does not provide search filter options to users who need to refine their queries nor does it show a recent search history for assistance in navigation. Users looking for information about mental health need easy pathways to recover from search mistakes to prevent aggravation.</td>
+        </tr>
+        <tr>
+          <td>4. Consistency and Standards</td>
+          <td>Users can find the search bar consistently in the header section yet access to the archive navigation requires scrolling to the lower parts of the page. The platform lacks standard academic or news practices by using the beginning of each article as its summary while other platforms prefer segmenting content with keywords or summaries. Mentally unstable students may doubt their information source when image links within the website do not work properly which results in reduced credibility and confusion about content validity.</td>
+        </tr>
+        <tr>
+          <td>5. Error Prevention</td>
+          <td>Users who enter “depression” incorrectly have no available assistance from the site because it does not provide either correction suggestions or appropriate alternatives. Users cannot perform search refinements through filters that include date selection or topic categories or article classification. Deeper topic exploration becomes difficult for students examining mental health because the platform does not provide enough assistance for sensitive research areas.</td>
+        </tr>
+        <tr>
+          <td>6. Recognition Rather Than Recall</td>
+          <td>The chosen search phrase ("mental health") appears prominently displayed at the results page top after users make their search. The search term persists at the top of results for students to recall their original query. Students can easily switch between tasks due to the permanent navigation bar that appears at the top. The service doesn't offer visual topic categories or tags to assist students in identifying connected mental health subjects thus they must remember exact search terms.</td>
+        </tr>
+        <tr>
+          <td>7. Flexibility and Efficiency of Use</td>
+          <td>The system doesn’t offer advanced search options or personalization features like saved searches or interest tags. A student researching mental health trends across time, for example, can’t filter by decade or issue. Flexibility features like these would improve the efficiency of research for educators and students working with thematic or long-term mental health projects.</td>
+        </tr>
+        <tr>
+          <td>8. Aesthetic and Minimalist Design</td>
+          <td>Visitors experience cluttered results during search activities on this site because its layout presents a clean appearance. The homepage appears overcrowded because it contains an extensive number of visual elements and links. A topic focused on mental health requires an uncluttered design for research support because clarity and calmness aid the work.</td>
+        </tr>
+        <tr>
+           <td>9. Help users recognize, diagnose, and recover from errors</td>
+           <td>When a search yields no results (e.g., searching for “suicidal thoughts”), the system doesn’t provide guidance. There are no suggested topics, alternative searches, or spelling corrections. For students or teachers exploring nuanced mental health terms, this can lead to dead ends and missed resources.</td>
+        </tr>
+        <tr>
+        <td>10. Help and documentation</td> 
+        <td>There is no visible help section or guide explaining how to use the archive or optimize search results. Teachers guiding students to explore mental health coverage in campus media would benefit from a simple “how to use the archive” tutorial or FAQ, especially since first-time users may be unfamiliar with archive systems.</td>
+        </tr>
+      </table>
+    </div>
+
+    <h3>Step 3: Summarize Part 1 with the top 2 strengths and top 2 weaknesses of the system</h3>
+    <p><strong>Top Strengths:</strong></p>
+    <div>
+       <h4>1. Responsive Search Functionality</h4>
+       <p>The system provides immediate search results that pertain to "fast food" and "Catholic" every time a user types in these terms. The system presents results using article titles combined with thumbnail images and showing the first sentence of each article for quick user assessment of appropriate content. Users can quickly obtain search results thanks to a response system that functions well when working with extensive archives. Being an educator allows one to find needed materials without spending excessive time.</p>
+   </div>
+  
+       <div>    
+       <h4>2. Organized Layout with Image Previews</h4>
+       <p>Business researchers can easily understand search results because they display article titles along with publication dates and small pictures of each article. Users can quickly scan the content because of its well-structured layout to identify potential useful material. The top first sentence in previews helps users to find out if articles match their requirements swiftly. Undergraduate teachers benefit from this feature since it makes their search for original source material for educational purposes more efficient.</p>
+    </div>
+
+    <p><strong>Top Weaknesses:</strong></p>
+    <div>
+     <h4>1. Lack of Advanced Search Features</h4>
+     <p>A critical drawback of this website stems from its inadequate search functionality. The absence of search filters for date ranges and authors and topics in the site means searchers must manually examine numerous results to find specific archived content. Undergraduate teachers need to browse numerous results for "Catholic" symbolism articles from selected decades or authored by particular authors because the site lacks efficient search functions.</p>
+    </div>
+    
+    <div>
+     <h4>2. No Error Recovery or Suggestion Mechanisms</h4>
+     <p>A search term with no results prompts users to experience an empty screen without any method for guidance. The system provides no assistance to users when they type less familiar search terms or spelling mistakes occur. The system creates frustration among users who lack experience with its interface because they lack the capability to improve their search or correct spelling errors.</p>
+    </div>
+
+
+     <h2>Part 2: Mini Usability Test</h2>
+    <h3>Step 4: Two tasks (observation form & questionnaire submitted separately)</h3>
+    <h3>Step 5: Compare the results from Part 1 and Part 2</h3> 
+
+     <p>The search function emerged as one of the primary problems according to the results from Part 1. Students found it hard to search through the database because the search tool did not offer advanced filtering capabilities that would direct users to articles about mental health in university life and campus support programs. Users encountered numerous difficulties while browsing through the large number of displayed results because this process consumed excessive time. The system displayed multiple technical problems through its broken links as well as sluggish page loading times to hinder users from obtaining content promptly. The problematic search interface strongly affected teachers and students when they wanted to explore mental health content in student newspapers because it did not provide effective methods to search for relevant articles.</p>
+
+    <p>During the mini-usability test of Part 2 users experienced trouble locating appropriate articles through the search bar efficiently. Students faced difficulties in article searches for mental health awareness because the search results did not align precisely with their needs thus hindering their ability to locate content about campus support systems or mental health coverage language and symbolism. User experiences included annoyance because the articles could not display properly or the links within these articles were not functioning correctly. The participants faced problems which affected their ability to adequately analyze mental health coverage in the student publications. Research conducted on the two sections shows that the search system demands the highest level of improvement. Advanced search filters which include topic and date ranges and keyword search capabilities would shorten the time and improve the accuracy of students finding mental health articles. The user experience would improve significantly if students could address problematic link quality and slow page loading because both elements would enable better student engagement with the material for analyzing mental health representations.
+</p>
+
+  </div>
+</body>
+</html>
